@@ -1,4 +1,4 @@
-var course = [
+[
   {
     id: 1,
     name: "React Course 2020",
