@@ -185,3 +185,22 @@
     img: 'https://i.morioh.com/2019/10/23/620a990fe531.jpg'
   }
 ]
+
+
+
+//arguments
+
+function addNumber(num1, num2){
+  let sum = 0;
+  for(let i = 0; i < arguments.length; i++){
+    const eachElement = arguments[i];
+    
+    sum = sum + eachElement
+    console.log(sum);
+  }
+  
+
+}
+
+
+addNumber(2, 4, 5, 7, 3, 6)
